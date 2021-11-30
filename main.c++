@@ -1,3 +1,10 @@
+
+/*
+ *  UCF COP3330 Fall 2021 Assignment 5 Solution
+ *  Copyright 2021 Hamza Iqbal
+ */
+
+
 #include<iostream>
 #include<cmath>
 using namespace std;
@@ -9,12 +16,12 @@ void roots(int a, int b, int c){
     //comparing the values of discriminant
     if(disc == 0){
         r1 =(float)(-b + sqrt(disc))/(2*a);
-        cout << "The roots of the quadratic equation are real and same.\nThe roots are r1=r2="<<r1 << endl;
+        cout << "The roots of the quadratic equation are both really as well as same.\nThe roots are r1=r2="<<r1 << endl;
         }
     else if(disc>0){
         r1 =(float)(-b+sqrt(disc))/(2*a);
         r2 =(float)(-b-sqrt(disc))/(2*a);
-        cout << "The roots of the quadratic equation are real and different.\nThe roots are r1="<<r1<<" and r2="<<r2 << endl;
+        cout << "The roots of the quadratic equation are really and very different.\nThe roots are r1="<<r1<<" and r2="<<r2 << endl;
         }
     else{
         real =(float) (-b/(2*a));
